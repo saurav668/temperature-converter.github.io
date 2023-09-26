@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            background-color: green;;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <button id="btn">click </button> -->
+    <div id="box">box</div>
+    <script>
+        // function btnclick(){
+        //     alert("button was clicked");
+        // }
+        // let btn=document.getElementById("btn");
+        // //anamous funtion
+        // btn.addEventListener('click',function(){
+        //     alert("btn was click");
+        // })
+        //windows keyword
+        window.addEventListener('keydown',checkkey);
+        function checkkey(event){
+            console.log(event.key);
+        }
+    </script>
+</body>
+</html>
